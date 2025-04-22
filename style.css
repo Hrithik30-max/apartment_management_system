@@ -1,0 +1,62 @@
+/* General body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background for a clean look */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333; /* Dark gray for headings */
+    font-weight: 600; /* Semi-bold for better readability */
+}
+
+/* Streamlit-specific classes for text and layout */
+.stButton > button {
+    color: #ffffff;
+    background-color: #007bff; /* Bootstrap primary color */
+    border-radius: 4px;
+    border: none;
+    padding: 10px 24px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3; /* A darker shade on hover */
+}
+
+.stTextInput label, .stSelectbox label, .stNumberInput label, .stSlider label {
+    color: #6c757d; /* Bootstrap's default dark */
+}
+
+.stTextInput input, .stSelectbox select, .stNumberInput input, .stSlider input {
+    border-radius: 4px;
+    border: 1px solid #ced4da; /* Bootstrap's default border color */
+    padding: 0.375rem 0.75rem; /* Standard padding */
+}
+
+.stDataFrame {
+    border: 1px solid #dee2e6; /* Lighter border for data frames */
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #ffffff; /* Solid white background for sidebar */
+    border-right: 1px solid #dee2e6;
+}
+
+/* Metrics styling */
+.stMetricLabel {
+    color: #6c757d; /* Consistent color for metrics label */
+}
+
+.stMetricValue {
+    font-size: 24px;
+    color: #007bff; /* Use primary color for metric values */
+}
+
+/* Text color */
+.css-1d391kg {
+    color: #495057; /* Standard text color */
+}
